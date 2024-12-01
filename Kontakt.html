@@ -36,7 +36,25 @@
                 +441929405096 <br/> <br/>
                 <i class="fa-solid fa-envelope"></i>
                 archive@tankmuseum.org
-            </p>
+            </p> <br> <br>
+            <form action="index.php" method="get">
+                <div class="prijavaCol">
+                  <label for="ime">Ime: </label>
+                  <input type="text" name="ime" id="ime" required="required">
+
+                  <label for="prezime">Prezime: </label>
+                  <input type="text" name="prezime" id="prezime" required="required">
+
+                    <br>
+                  <label for="email">Email: </label>
+                  <input type="email" name="email" id="email" required="required">
+
+                  <label for="telefon">Broj telefona: </label>
+                  <input type="tel" name="telefon" id="telefon" class="telefon" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" required="required">
+                </div>
+              <input type="submit" name="submit" id="submit" class="submit" value="Potvrdi">
+
+          </form>
         </div>
         <div class="kontakt_slika">
             <img src="Slike/tank-museum-19.jpg" alt="slikakontakt">
