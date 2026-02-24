@@ -55,7 +55,7 @@
 }
 
 .velika_slika{
-    background-image: url("/assets/Slike/hg-15-02881_tml9720_2578.jpg");
+    background-image: url("../Slike/hg-15-02881_tml9720_2578.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100% 100%;
