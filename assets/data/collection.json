@@ -1,0 +1,169 @@
+[
+    {
+        "slika": "assets/Slike/Tiger-I-feat-1100x500.jpg",
+        "ime": "Tigar 1",
+        "korisceno": "Nemačka",
+        "proizvodnja": "Nemačka",
+        "period": "Drugi Svetski rat",
+        "broj proizvoda": 1352,
+        "pocetak i kraj": "1942 - 1945",
+        "proizvodjac": "Henschel i Porsche",
+        "tezina": "57 T",
+        "maximalna brzina": "40 km/h",
+        "top": "88mm KwK 36"
+    },
+
+    {
+        "slika": "assets/Slike/Sherman-Fury-feat-1100x500.jpg",
+        "ime": "M4A2E8 Šerman",
+        "korisceno": "Amerika, Sovjetski Savez, Britanija",
+        "proizvodnja": "Amerika",
+        "period": "Drugi Svetski rat",
+        "broj proizvoda": 2100,
+        "pocetak i kraj": "1944 - 1945",
+        "proizvodjac": "Fisher Tank Arsenal",
+        "tezina": "33 T",
+        "maximalna brzina": "28 km/h",
+        "top": "76mm M1"
+    },
+
+    {
+        "slika": "assets/Slike/Panther-feat-1100x500.jpg",
+        "ime": "Panter",
+        "korisceno": "Nemačka, Mađarska",
+        "proizvodnja": "Nemačka",
+        "period": "Drugi Svetski rat",
+        "broj proizvoda": 6000,
+        "pocetak i kraj": "1943 - 1945",
+        "proizvodjac": "MAN",
+        "tezina": "44 T",
+        "maximalna brzina": "55 km/h",
+        "top": "75mm KwK 42 L/70"
+    },
+
+    {
+        "slika": "assets/Slike/6cVbiA8gOD0HBQGiaqGiQfwTFYquYDK4fYgD1Gcu3Sb2IWW4ORIde-DKOrIs4hOavFTGTPNzga4ERUZJ85hhEw (1).jpg",
+        "ime": "T-34/76",
+        "korisceno": "Sovjetski Savez, Nemačka(Okupacija)",
+        "proizvodnja": "Sovjetski Savez",
+        "period": "Drugi Svetski rat",
+        "broj proizvoda": 35467,
+        "pocetak i kraj": "1940 - 1943",
+        "proizvodjac": "KhMDB",
+        "tezina": "26,5 T",
+        "maximalna brzina": "53 km/h",
+        "top": "76,2mm L-11"
+    },
+
+    {
+        "slika": "assets/Slike/Tiger-II-feat-1100x500-768x349.jpg",
+        "ime": "Tigar 2",
+        "korisceno": "Nemačka",
+        "proizvodnja": "Nemačka",
+        "period": "Drugi Svetski rat",
+        "broj proizvoda": 492,
+        "pocetak i kraj": "1944 - 1945",
+        "proizvodjac": "Henschel i Porsche",
+        "tezina": "69,8 T",
+        "maximalna brzina": "26 km/h",
+        "top": "88mm KwK 43 L/71"
+    },
+
+    {
+        "slika": "assets/Slike/Mark-IV-feat-1440x500.jpg",
+        "ime": "Marka 4",
+        "korisceno": "Britanija",
+        "proizvodnja": "Britanija",
+        "period": "Prvi Svetski rat",
+        "broj proizvoda": 1222,
+        "pocetak i kraj": "1917 - 1919",
+        "proizvodjac": "Vickers Company",
+        "tezina": "28 T",
+        "maximalna brzina": "3,7 km/h",
+        "top": "2x 57mm"
+    },
+
+    {
+        "slika": "assets/Slike/Replica_A7V_‘SchnucK’_(45277410161).jpg",
+        "ime": "A7V",
+        "korisceno": "Nemačka",
+        "proizvodnja": "Nemačka",
+        "period": "Prvi Svetski rat",
+        "broj proizvoda": 20,
+        "pocetak i kraj": "1917 - 1918",
+        "proizvodjac": "Krupp",
+        "tezina": "31,5 T",
+        "maximalna brzina": "15 km/h",
+        "top": "57mm Maxim-Nordenfelt"
+    },
+
+    {
+        "slika": "assets/Slike/FT-feat-1100x500-768x349.jpg",
+        "ime": "Renault FT",
+        "korisceno": "Francuska",
+        "proizvodnja": "Francuska",
+        "period": "Prvi Svetski rat",
+        "broj proizvoda": 3000,
+        "pocetak i kraj": "1917 - 1919",
+        "proizvodjac": "Renault",
+        "tezina": "7,2 T",
+        "maximalna brzina": "6 km/h",
+        "top": "8mm Hotchkiss Mitraljez"
+    },
+
+    {
+        "slika": "assets/Slike/Panzer-II-feat-1100x500-1.jpg",
+        "ime": "Pancer 2",
+        "korisceno": "Nemačka",
+        "proizvodnja": "Nemačka",
+        "period": "Drugi Svetski rat",
+        "broj proizvoda": 1867,
+        "pocetak i kraj": "1935 - 1940",
+        "proizvodjac": "Diamler-Benz",
+        "tezina": "9 T",
+        "maximalna brzina": "40 km/h",
+        "top": "20mm"
+    },
+
+    {
+        "slika": "assets/Slike/Pics-for-kelly_10-1.jpg",
+        "ime": "Čurčil 4",
+        "korisceno": "Britanija, Sovjetski Savez",
+        "proizvodnja": "Britanija",
+        "period": "Drugi Svetski rat",
+        "broj proizvoda": 5640,
+        "pocetak i kraj": "1941 - 1945",
+        "proizvodjac": "Vickers-Armstrong",
+        "tezina": "39 T",
+        "maximalna brzina": "25 km/h",
+        "top": "57mm top"
+    },
+
+    {
+        "slika": "assets/Slike/T72-feat-1100x500-768x349.jpg",
+        "ime": "T-72",
+        "korisceno": "Istočna Nemačka, Jugoslavija, Sovjetski Savez",
+        "proizvodnja": "Čehoslovačka, Poljska, Sovjetski Savez",
+        "period": "Hladan rat",
+        "broj proizvoda": 25000,
+        "pocetak i kraj": "1969 - 1990",
+        "proizvodjac": "Uralvagonzavod",
+        "tezina": "41,5 T",
+        "maximalna brzina": "60 km/h",
+        "top": "125mm Smoothbore Autoloader"
+    },
+
+    {
+        "slika": "assets/Slike/Chieftain-MBT-feat-1100x500.jpg",
+        "ime": "Čiftein",
+        "korisceno": "Britanija, Australija, Kanada",
+        "proizvodnja": "Britanija",
+        "period": "Hladan rat",
+        "broj proizvoda": 5640,
+        "pocetak i kraj": "1966 - 1978",
+        "proizvodjac": "The British Leyland Motor Corporation",
+        "tezina": "55 T",
+        "maximalna brzina": "48 km/h",
+        "top": "120mm top"
+    }
+]

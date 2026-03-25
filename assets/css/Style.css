@@ -1,0 +1,1204 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.pocetna{
+    background-color: black;
+    display: flex;
+    height: 150px;
+    justify-content: space-between;
+}
+
+.slika{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.slika img{
+    width: 80%;
+}
+
+.slika i{
+    color: white;
+    visibility: hidden;
+    margin-left: 20px;
+    border: 3px solid white;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.podela{
+    width: 50%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.podela ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.podela a.active{
+    color: red;
+}
+
+.podela a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    transition-duration: 0.6s;
+}
+
+.podela li{
+    padding: 60px 25px;
+}
+
+.podela a:hover{
+    color: red;
+    transform: scale(120%);
+    cursor: pointer;
+    font-size: 40px;
+    transition-duration: 0.6s;
+}
+
+.velika_slika{
+    background-image: url("../Slike/hg-15-02881_tml9720_2578.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sadrzaj{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sadrzaj h1{
+    font-size: 60px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.sadrzaj p{
+    width: 50%;
+    font-size: 38px;
+    padding-top: 20px;
+    color: white;
+}
+
+.sadrzaj a:hover{
+    transition-duration: 0.6s;
+    transform: scale(120%);
+    background-color: rgb(150, 40, 0);
+    color: rgb(150, 150, 150);
+}
+
+.sadrzaj a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: orangered;
+    transition-duration: 0.6s;
+    margin-top: 50px;
+    padding: 15px;
+    
+}
+
+.dobrodoslica{
+    background-color: rgb(42, 59, 35);
+}
+
+.naslov{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 28px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace ;
+}
+
+.tankfestnaslov{
+    text-align: center;
+    height: 80px;
+    width: 100%;
+    padding-top: 60px;
+    font-size: 30px;
+    color: black;
+    background-color: rgba(25, 73, 32, 0.5);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.tankfest{
+    background-color: rgba(25, 73, 32, 0.5);
+    display: flex;
+    color: black;
+}
+
+.tankfestopis{
+    width: 50%;
+    padding: 30px;
+    margin: 20px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.tankfestopis p{
+    margin: 50px;
+    margin-left: 20px;
+
+}
+
+.tankfestvreme{
+    width: 50%;
+    background-color: rgba(25, 73, 32, 0.5);
+    padding: 40px;
+    margin: 40px;   
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.tankfestvreme li{
+    padding: 15px;
+}
+
+.tankfestvreme p{
+    margin-top: 60px;
+}
+
+.tankfestslike{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(25, 73, 32, 0.5);
+}
+
+.tankfest2026{
+    transition-duration: 0.6s;
+    margin-right: 20px;
+}
+
+.tankfest2026:hover{
+    transition-duration: 0.6s;
+    transform: scale(105%);
+}
+
+.tankfest2026 img{
+    height: 85%;
+    width: 85%;
+    background-color: rgb(42, 59, 35);
+    border: 18px solid rgb(0, 0, 0, 0.5);
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+.rezervacija{
+    background-color: rgba(25, 73, 32, 0.5);
+    text-align: center;
+    padding: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.dugme a:hover{
+    transition-duration: 0.6s;
+    color: rgb(150, 150, 150);
+    background-color: rgb(179, 48, 0);
+}
+
+.dugme a{
+    color: white;
+    text-decoration: none;
+    background-color: orangered;
+    padding: 20px;
+    border-radius: 10px;
+    transition-duration: 0.6s;
+}
+
+.kraj_slika{
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.autor{
+    background-color: rgb(42, 59, 35);
+    display: flex;
+    height: 581px;
+    padding-top: 50px;
+}
+
+.indeks{
+    color: white;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.opis{
+    width: 1000px;
+    padding-top: 50px;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.kraj{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.linkovi{
+    color: white;
+    padding-left: 300px;
+    padding-top: 26px;
+    padding-bottom: 30px;
+}
+
+.linkovi h3{
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 30px;
+    padding-top: 3px;
+}
+
+.linkovi i:hover{
+    transform: scale(120%);
+    cursor: pointer;
+    transition-duration: 0.6s;
+}
+
+.linkovi i{
+    transition-duration: 0.6s;
+    font-size: 50px;
+    padding-top: 10px;
+}
+
+.linkovi a{
+    color: white;
+    margin-right: 80px;
+}
+
+.linkovi_od_naslova{
+    color: white;
+    padding-left: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.linkovi_od_naslova a{
+    color: white;
+    text-decoration: none;
+}
+
+.linkovi_od_naslova a:hover{
+    color: red;
+    text-decoration: none;
+}
+
+.linkovi_od_naslova li{
+    transition-duration: 0.6s;
+    font-size: 18px;
+}
+
+.linkovi_od_naslova li:hover{
+    transform: translateX(15px);
+    transition-duration: 0.6s;
+}
+
+
+.linkovi_od_naslova ul{
+    list-style-type: none;
+}
+
+.linkovi_kraj{
+    margin-bottom: 30px;
+    padding-top: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.slike_galerija{
+    background-color: rgb(42, 59, 35);
+    height: 1000px;
+    padding: 30px;
+}
+
+.pozadina_slike{
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    padding: 30px;
+}
+
+.pozadina_slike img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.6s;
+    box-shadow: 8px 8px 5px rgb(100, 97, 97);
+}
+
+.pozadina_slike img{
+    width: 400px;
+    height: 250px;
+    transition-duration: 0.6s;
+    border-radius: 15px;
+}
+@keyframes fade-down{
+    from{
+        opacity: 0;
+        transform: translateY(-70px); 
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0); 
+    }
+}
+.pozadina_slike{
+    animation: fade-down 1s ease-out;
+}
+
+.kontakt_pozadina{
+    background-color: rgb(42, 59, 35);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kontakt_text{
+    color: white;
+    margin-top: 50px;
+    font-size: 20px;
+    margin-left: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.kontakt_text h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.kontakt_text form{
+    background-color: rgba(25, 73, 32, 0.5);
+    padding: 30px;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    margin-bottom: 40px;
+}
+
+.kontakt_text form h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.kontakt_text form input{
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.submit{
+    background-color: orangered;
+    color: white;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 5px;
+    transition-duration: 0.6s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.submit:hover{
+    transition-duration: 0.6s;
+    background-color: rgb(179, 48, 0);
+    color: rgb(150, 150, 150);
+}
+
+input.error, textarea.error {
+    border: 2px solid #d63031 !important;
+    box-shadow: 0 0 8px rgba(214, 48, 49, 0.4);
+    background-color: #ffeef0;
+}
+
+.error-message {
+    color: #d63031;
+    font-size: 14px;
+    margin-top: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: none;
+    z-index: 1000;
+}
+
+.notification.success {
+    background-color: green;
+}
+
+.notification.error {
+    background-color: red;
+}
+
+.kontakt_mapa_info{
+    background-color:rgb(42, 59, 35);
+}
+
+.mapa iframe{
+    width: 100%;
+    height: 400px;
+    border: 0px;
+}
+
+.kolekcija_pozadina{
+    background-color: transparent;
+}
+
+.kolekcija{
+    flex: 1;
+}
+
+.kolekcija-item {
+    opacity: 0;
+    transform: translateY(35px);
+    animation: slide-up 0.55s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes slide-up {
+    from {
+        opacity: 0;
+        transform: translateY(35px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.model1:hover, .model2:hover {
+    transform: translateY(-5px);
+    transition: transform 0.22s ease;
+}
+
+.filteri{
+    background-color: rgb(42, 59, 35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.tank_filters{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+    background-color: rgba(60, 141, 72, 0.5);
+    width: 65%;
+    border-radius: 7px;
+}
+
+.tank_search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+    background-color: rgba(60, 141, 72, 0.5);
+    width: 35%;
+    border-radius: 7px;
+}
+
+#search{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 250px;
+}
+
+#country, #era{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 300px;
+}
+
+.tank_filters b, .tank_search b{
+    font-size: 30px;
+}
+
+.filteri{
+   background-color: rgb(42, 59, 35);
+}
+
+.model1{
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    border: 0px solid rgb(42, 59, 35);
+    margin: 30px 20px 20px 20px;
+}
+
+.model1 p{
+    margin: 1px;
+}
+
+.model1 img{
+    width: 500px;
+    height: 250px;
+    margin: 20px 0px;
+    border-radius: 7px;
+    transition-duration: 0.6s;
+}
+
+.model1 img:hover{
+    transition-duration: 0.6s;
+    transform: scale(108%);
+}
+
+.naslov1{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    padding-top: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.naslov1 h1{
+    text-align: center;
+}
+
+.naslov1 p{
+    font-size: 20px;
+}
+
+.opistenka1{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.model2{
+    background-color: rgba(25, 73, 32, 0.5);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    border: 0px solid rgb(42, 59, 35);
+    flex-direction: row-reverse;
+    margin: 30px 20px 20px 20px;
+}
+
+.model2 img{
+    width: 500px;
+    height: 250px;
+    margin: 20px 0px;
+    border-radius: 7px;
+    transition-duration: 0.6s;
+}
+
+.model2 img:hover{
+    transition-duration: 0.6s;
+    transform: scale(108%);
+}
+
+.naslov2{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    padding-top: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.naslov2 h1{
+    text-align: center;
+}
+
+.naslov2 p{
+    font-size: 20px;
+}
+
+.opistenka2{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media (max-width: 1024px) {
+    .pocetna {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .slika {
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+    }
+    
+    .podela {
+        width: 100%;
+    }
+    
+    .podela ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .podela li {
+        padding: 20px 15px;
+    }
+    
+    .podela a {
+        font-size: 18px;
+    }
+    
+    .sadrzaj h1 {
+        font-size: 40px;
+    }
+    
+    .sadrzaj p {
+        width: 70%;
+        font-size: 24px;
+    }
+    
+    .tankfest {
+        flex-direction: column;
+    }
+    
+    .tankfestopis {
+        width: 70%;
+    }
+    
+    .tankfestvreme {
+        width: 70%;
+    }
+    
+    .tankfestslike {
+        flex-wrap: wrap;
+    }
+    
+    .tankfest2026 img {
+        width: 90%;
+        height: 80%;
+    }
+
+    .tankfest2026:hover {
+        transform: scale(101%);
+    }
+    
+    .kraj {
+        flex-direction: column;
+    }
+    
+    .kraj_slika {
+        padding-left: 0;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .linkovi_od_naslova {
+        padding-left: 0;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .linkovi {
+        padding-left: 50px;
+        text-align: center;
+    }
+    
+    .model1, .model2 {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .filteri {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .tank_filters, .tank_search {
+        width: 85%;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    #search, #country, #era {
+        width: 100%;
+        max-width: 420px;
+    }
+    
+    .naslov1, .naslov2{
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    
+    .slikatenk img {
+        height: auto;
+    }
+    
+    .kontakt_pozadina {
+        flex-direction: column;
+    }
+    
+    .kontakt_text {
+        margin-left: 0;
+        padding: 20px;
+    }
+
+    .kontakt_text form{
+        width: 100%;
+        max-width: 400px;
+        margin: 20px auto;
+    }
+    
+    .kontakt_slika {
+        margin-left: 0;
+        margin-top: 20px;
+        overflow: hidden;
+        width: 100%;
+    }
+    
+    .pozadina_slike {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .pozadina_slike img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+    
+    .slike_galerija {
+        height: auto;
+    }
+    
+    .autor {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .indeks {
+        font-size: 30px;
+    }
+    
+    .opis {
+        width: 90%;
+        font-size: 25px;
+    }
+
+    .autor_slika{
+        text-align: center;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-size: 14px;
+    }
+    
+    .pocetna {
+        height: auto;
+        flex-direction: column;
+    }
+    
+    .slika {
+        width: 100%;
+        text-align: center;
+        padding: 15px 0;
+    }
+    
+    .slika img {
+        width: 70%;
+    }
+    
+    .podela {
+        display: none;
+        flex-direction: column;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .slika i {
+        visibility: visible;
+        font-size: 24px;
+        margin-right: 15px;
+    }
+    
+    .podela ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .podela li {
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .podela a {
+        font-size: 14px;
+    }
+    
+    .podela a:hover {
+        font-size: 16px;
+    }
+    
+    .velika_slika {
+        height: 400px;
+    }
+    
+    .sadrzaj h1 {
+        font-size: 28px;
+    }
+    
+    .sadrzaj p {
+        width: 85%;
+        font-size: 16px;
+    }
+    
+    .sadrzaj a {
+        font-size: 14px;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    
+    .dobrodoslica {
+        padding: 20px;
+    }
+    
+    .naslov {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 20px;
+    }
+    
+    .tankfestnaslov {
+        font-size: 18px;
+        height: auto;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .tankfest {
+        flex-direction: column;
+        padding: 0;
+    }
+    
+    .tankfestopis {
+        width: 90%;
+        padding: 15px;
+        margin: 10px;
+        font-size: 16px;
+    }
+    
+    .tankfestopis p {
+        margin: 20px 0;
+    }
+    
+    .tankfestvreme {
+        width: 85%;
+        padding: 25px;
+        margin: 10px;
+        font-size: 16px;
+    }
+    
+    .tankfestvreme li {
+        padding: 8px;
+    }
+    
+    .tankfestslike {
+        flex-direction: column;
+        padding: 0;
+    }
+    
+    .tankfest2026 {
+        margin-right: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .tankfest2026 img {
+        width: 90%;
+        height: auto;
+        margin-left: 0;
+        margin-right: 0;
+        border: 10px solid rgb(0, 0, 0, 0.5);
+    }
+
+    .tankfest2026:hover {
+        transform: scale(100%);
+    }
+    
+    .dugme a {
+        font-size: 14px;
+        padding: 12px 20px;
+    }
+    
+    .kraj {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .kraj_slika {
+        padding-left: 0;
+        padding-top: 20px;
+        text-align: center;
+    }
+    
+    .kraj_slika img {
+        width: 50%;
+    }
+    
+    .linkovi_od_naslova {
+        padding-left: 0;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .linkovi_od_naslova a {
+        display: block;
+        padding: 8px 0;
+    }
+
+    .linkovi_od_naslova h3 {
+        font-size: 25px;
+    }
+    
+    .linkovi {
+        padding-left: 0;
+        padding: 20px 0;
+        font-size: 30px;
+    }
+
+    .linkovi h3 {
+        font-size: 25px;
+    }
+    
+    .linkovi a {
+        margin-right: 20px;
+    }
+    
+    .slike_galerija {
+        height: auto;
+        padding: 15px;
+    }
+    
+    .pozadina_slike {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px;
+        align-items: center;
+    }
+    
+    .pozadina_slike img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .pozadina_slike img:hover {
+        transform: scale(100%);
+    }
+    
+    .kontakt_pozadina {
+        flex-direction: column;
+        padding: 0;
+    }
+    
+    .kontakt_text {
+        margin-top: 20px;
+        margin-left: 0;
+        padding: 15px;
+        font-size: 16px;
+    }
+    
+    .kontakt_text h1 {
+        font-size: 24px;
+    }
+    
+    .kontakt_slika {
+        margin-left: 0;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .kontakt_slika img {
+        width: 100%;
+        height: auto;
+    }
+
+    .model1, .model2 {
+        flex-direction: column;
+        padding: 0;
+    }
+    
+    .model1 img, .model2 img {
+        width: 80%;
+        height: auto;
+        margin: 10px 0;
+    }
+    
+    .naslov1, .naslov2 {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .naslov1 h1, .naslov2 h1 {
+        font-size: 20px;
+    }
+
+    .naslov1 p, .naslov2 p {
+        font-size: 14px;
+    }
+    
+    .opistenka1, .opistenka2 {
+        flex-direction: column;
+        font-size: 14px;
+    }
+    
+    .autor {
+        height: auto;
+        padding-bottom: 30px;
+    }
+    
+    .indeks {
+        font-size: 28px;
+        padding-top: 20px;
+    }
+    
+    .opis {
+        width: 90%;
+        padding: 15px;
+        font-size: 16px;
+    }
+    
+    .mapa iframe {
+        height: 300px;
+    }
+    
+    .kolekcija_pozadina {
+        padding: 20px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .podela a {
+        font-size: 12px;
+        padding: 0 8px;
+    }
+    
+    .podela li {
+        padding: 8px 5px;
+    }
+
+    .autor_slika img {
+        width: 80%;
+    }
+    
+    .velika_slika {
+        height: 300px;
+    }
+
+    .slika i{
+        font-size: 15px;
+        margin-right: 5px;
+    }
+    
+    .sadrzaj h1 {
+        font-size: 20px;
+    }
+    
+    .sadrzaj p {
+        font-size: 14px;
+        width: 90%;
+    }
+    
+    .tankfestopis {
+        font-size: 14px;
+    }
+    
+    .tankfestvreme {
+        font-size: 14px;
+        padding: 20px;
+    }
+    
+    .linkovi {
+        font-size: 24px;
+    }
+    
+    .linkovi a {
+        margin-right: 10px;
+    }
+    
+    .kontakt_text {
+        font-size: 14px;
+    }
+
+    .kontakt_text form {
+        width: 100%;
+        max-width: 300px;
+        margin: 20px auto;
+    }
+    
+    .indeks {
+        font-size: 20px;
+    }
+    
+    .opis {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
